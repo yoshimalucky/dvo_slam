@@ -4,7 +4,7 @@ project(dvo_benchmark)
 
 LIST(APPEND CMAKE_MODULE_PATH "${PROJECT_SOURCE_DIR}/cmake_modules")
 
-find_package(catkin REQUIRED COMPONENTS roscpp dvo_core dvo_ros dvo_slam)
+find_package(catkin REQUIRED COMPONENTS roscpp dvo_core dvo_ros dvo_slam dynamic_reconfigure)
 find_package(cmake_modules REQUIRED)
 find_package(Eigen3 REQUIRED)
 find_package(G2O REQUIRED)
